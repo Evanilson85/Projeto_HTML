@@ -1,0 +1,25 @@
+.section{
+    background-image: url(../img/about/sobre1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+#main .about h2{
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+#main .about hr{
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+    height: 5px;
+    border: none;
+    border-radius: 50%;
+
+}
+#main .about p {
+    width: 80%;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}

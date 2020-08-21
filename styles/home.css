@@ -1,0 +1,228 @@
+#page-home {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/page-home/header-home.webp);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+#page-home section {
+  text-align: center;
+  height: auto;
+  width: 80%;
+  margin: 0 0;
+  border-radius: 0px 50px 50px 0;
+  background-color: rgb(0 0 0 / 73%);
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+#page-home section .home h1 {
+  color: var(--color-h1);
+  font-size: 2rem;
+}
+#page-home section .home hr {
+  background-color: var(--color-h1);
+  height: 2px;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 50%;
+}
+#page-home section .home p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+#page-home section .home b {
+  color: var(--color-h1);
+}
+#page-home section .home button {
+  height: 30px;
+  width: 40%;
+  border: var(--color-h1) solid 2px;
+  color: white;
+  border-radius: 9px;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 10px 0 20px;
+}
+#page-home section .home button:hover {
+  background-color: var(--color-h1);
+  color: black;
+}
+#page-home section .home button a {
+  text-decoration: none;
+  color: white;
+}
+#page-home main {
+  height: auto;
+  background-color: white;
+  margin-top: 640px;
+  border-radius: 10px 10px 0 0;
+}
+#page-home main .welcome h2 {
+  color: var(--color-h1);
+  font-size: 2.8em;
+  text-align: center;
+}
+#page-home main .welcome p,
+#page-home main .new p {
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 20px auto 0;
+}
+#page-home main .welcome .volei {
+  margin-top: 20px;
+}
+#page-home main .welcome .volei h3 {
+  background-color: var(--color-h1);
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+}
+#page-home main .welcome .volei a,
+#page-home main .basquete a {
+  color: white;
+  font: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+#page-home main .welcome .volei img,
+#page-home main .basquete img {
+  width: 100%;
+}
+#page-home main .new .btn {
+  width: 50%;
+  margin: 10px auto 0;
+}
+#page-home main .new button {
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: var(--color-h1);
+  border-radius: 2px;
+  margin: auto;
+}
+#page-home main .new button a {
+  color: white;
+  text-decoration: none;
+  font: 400;
+}
+#page-home main .basquete h3 {
+  background-color: var(--color-h1);
+  width: 70%;
+  position: relative;
+  margin-left: 30%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 20px 0 0 20px;
+  text-align: center;
+}
+#page-home .desk {
+  display: none;
+}
+#page-home .img-baner {
+  display: none;
+}
+#page-home main .welcome .volei p {
+  display: none;
+}
+#page-home .new img{
+  display: none;
+}
+#page-home  main .basquete .basquete-p p{
+  display: none;   
+}
+@media (min-width: 768px) {
+  #page-home {
+    position: absolute;
+    background-image: url(../img/page-home/desktop/header.webp);
+  }
+  #page-home .home {
+    margin: 30px 0;
+  }
+  #page-home section {
+    width: 50%;
+    height: 280px;
+    top: 25%;
+    margin: 3px 0% 0 50%;
+    border-radius: 145px 0px 0px 145px;
+  }
+  #page-home section .home h1 {
+    font-size: 4rem;
+  }
+  #page-home .desk {
+    display: block;
+  }
+  #page-home .img-baner {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+  #page-home .img-baner img {
+    width: 30%;
+    margin: 10px;
+  }
+  #page-home .welcome p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #page-home main .welcome .volei h3 {
+    width: 20%;
+  }
+
+  #page-home main .welcome .volei img{
+    width: 50%;
+
+  }
+  #page-home main .basquete h3 {
+    width: 20%;
+    margin-left: 80%;
+  }
+  #page-home main .welcome .volei p {
+    display: block;
+    width: 45%;
+  }
+  #page-home .new {
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 75px 0;
+  }
+  #page-home .new .new-p{
+    width: 50%;
+  }
+  #page-home .new img{
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+  }
+  #page-home  main .basquete img{
+    width: 40%;
+  }
+  #page-home  main .basquete .basquete-p{
+    display: flex;
+    align-items: center;
+  }
+  #page-home  main .basquete .basquete-p p{
+    display: block; 
+    width: 40%;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+  }
+ 
+
+}

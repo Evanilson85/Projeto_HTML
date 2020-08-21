@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+#page-init {
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-init main {
+  height: 100vh;
+  /* background-color: azure; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page-init main .container {
+  width: 100%;
+}
+#page-init main .container b{
+  font-size: 4.2rem;
+}
+#page-init main .container h1 {
+  color: #f15001;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#page-init main .container img {
+  width: 100%;
+}
+#page-init main .container .btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+#page-init main .container .btn button {
+  width: 40%;
+  background-color: var(--color-h1);
+  height: 40px;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#page-init main .container .btn button a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    font: 300;
+}
+#page-init main .container .btn button:hover {
+  background-color: var(--color-hover);
+  cursor: pointer;
+}
+#page-init main .container .right {
+    text-align: center;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    color: rgba(141, 133, 133, 0.699);
+}
+@media (min-width:769px){
+    #page-init main .container {
+       max-width: 85%;
+       display: grid;
+       grid-template-columns: 2fr 2fr;
+       grid-row: 2fr;
+    }
+    #page-init main .container h1{
+        align-self: center;
+        font-size: 47px;
+        margin-bottom: 0;
+    }
+    #page-init main .container .btn button{
+        height: 50px;
+    }
+    #page-init main .container .right{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

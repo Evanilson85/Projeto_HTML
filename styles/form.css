@@ -1,0 +1,140 @@
+
+#Page-Cadastro .main {
+    height: 75%;
+  
+    width: 75%;
+    margin: 0 auto;
+    /* position: absolute;
+      right: 5%; */
+  
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  
+  #Page-Cadastro .main .form {
+    height: auto;
+    background: rgb(0 17 255 / 24%);
+    border: 2px solid white;
+    border-radius: 8px;
+  }
+  .form label {
+    font: 300 1.1rem arial;
+    margin: 0 5% 0 5%;
+    color: white;
+  }
+  .form input,
+  .form button {
+    padding: 10px;
+    outline: none;
+    margin: 0px 5% 10px 5%;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+  }
+  .form input {
+    border-radius: 0;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+  }
+  .form button {
+    color: white;
+    font: 400 arial;
+    background: #8885b4;
+  }
+  .form p {
+    width: 80%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+  
+    bottom: 5px;
+  }
+  .form p:hover a {
+    background: var(--color-transparente);
+  }
+  .form p a {
+    text-decoration: none;
+    background: var(--color-form);
+    color: white;
+    width: 20%;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+  }
+  .form-main h2 {
+    font-size: 1.4em;
+    text-align: center;
+    color: var(--color-transparente);
+    /* position: absolute; */
+    display: flex;
+  
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+  }
+  @media (min-width: 700px) {
+    #Page-Cadastro .main {
+      width: 50%;
+      position: absolute;
+      right: 76px;
+      top: 113px;
+    }
+  }
+  @media (min-width: 1024px) {
+    #Page-Cadastro .main {
+      width: 35%;
+      position: absolute;
+      right: 76px;
+      top: 113px;
+    }
+    #Page-Cadastro .main .form {
+      height: 100%;
+      display: flex;
+      height: auto;
+      background: rgb(255 255 255 / 65%);
+      align-items: center;
+      border: var(--color-form) solid;
+    }
+    .form-main h2 {
+      font-size: 2.4em;
+      text-align: center;
+      color: var(--color-form);
+      /* position: absolute; */
+      display: flex;
+      height: 40px;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100px;
+    }
+    #Page-Cadastro .main .form label {
+      color: black;
+      font: 800 30px;
+    }
+    #Page-Cadastro .main .form .form-main {
+      width: 80%;
+      margin: 0 auto;
+      height: 100%;
+    }
+    #Page-Cadastro .main .form .form-main input {
+      border-radius: 0;
+      border: none;
+      background: none;
+      border-bottom: 2px solid var(--color-form);
+    }
+    #Page-Cadastro .main .form .form-main button:hover {
+      background: var(--color-transparente);
+      cursor: pointer;
+    }
+    .form p {
+    }
+  }

@@ -1,0 +1,9 @@
+#Page-Cadastro {
+  /* height: 900px; */
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../img/cadastro/cadastro.jpg);
+  position: relative;
+  background-position: center;
+}
+
